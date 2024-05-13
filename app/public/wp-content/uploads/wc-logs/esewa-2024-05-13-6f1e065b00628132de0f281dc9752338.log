@@ -1,0 +1,215 @@
+2024-05-13T14:08:50+00:00 INFO Checking IPN response is valid
+2024-05-13T14:08:51+00:00 INFO IPN Response: Array
+(
+    [headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [x-content-type-options] => nosniff
+                    [x-xss-protection] => 0
+                    [cache-control] => no-cache, no-store, max-age=0, must-revalidate
+                    [pragma] => no-cache
+                    [expires] => 0
+                    [x-frame-options] => DENY
+                    [content-type] => text/html
+                    [date] => Mon, 13 May 2024 14:06:17 GMT
+                    [set-cookie] => BIGipServerrc-user-pool=398593290.14340.0000; path=/; Httponly; Secure
+                    [strict-transport-security] => max-age=16070400; includeSubDomains
+                    [vary] => Accept-Encoding
+                    [content-encoding] => gzip
+                    [referrer-policy] => strict-origin
+                )
+
+        )
+
+    [body] => <response>
+<response_code>
+Success
+</response_code>
+</response>
+
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => BIGipServerrc-user-pool
+                    [value] => 398593290.14340.0000
+                    [expires] => 
+                    [path] => /
+                    [domain] => uat.esewa.com.np
+                    [port] => 
+                    [host_only] => 1
+                )
+
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [data] => 
+            [headers] => 
+            [status] => 
+            [response:protected] => WpOrg\Requests\Response Object
+                (
+                    [body] => <response>
+<response_code>
+Success
+</response_code>
+</response>
+
+                    [raw] => HTTP/1.1 200 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: text/html
+Date: Mon, 13 May 2024 14:06:17 GMT
+Connection: close
+Set-Cookie: BIGipServerrc-user-pool=398593290.14340.0000; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400; includeSubDomains
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Referrer-Policy: strict-origin
+Transfer-Encoding: chunked
+
+<response>
+<response_code>
+Success
+</response_code>
+</response>
+
+                    [headers] => WpOrg\Requests\Response\Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [x-content-type-options] => Array
+                                        (
+                                            [0] => nosniff
+                                        )
+
+                                    [x-xss-protection] => Array
+                                        (
+                                            [0] => 0
+                                        )
+
+                                    [cache-control] => Array
+                                        (
+                                            [0] => no-cache, no-store, max-age=0, must-revalidate
+                                        )
+
+                                    [pragma] => Array
+                                        (
+                                            [0] => no-cache
+                                        )
+
+                                    [expires] => Array
+                                        (
+                                            [0] => 0
+                                        )
+
+                                    [x-frame-options] => Array
+                                        (
+                                            [0] => DENY
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => text/html
+                                        )
+
+                                    [date] => Array
+                                        (
+                                            [0] => Mon, 13 May 2024 14:06:17 GMT
+                                        )
+
+                                    [set-cookie] => Array
+                                        (
+                                            [0] => BIGipServerrc-user-pool=398593290.14340.0000; path=/; Httponly; Secure
+                                        )
+
+                                    [strict-transport-security] => Array
+                                        (
+                                            [0] => max-age=16070400; includeSubDomains
+                                        )
+
+                                    [vary] => Array
+                                        (
+                                            [0] => Accept-Encoding
+                                        )
+
+                                    [content-encoding] => Array
+                                        (
+                                            [0] => gzip
+                                        )
+
+                                    [referrer-policy] => Array
+                                        (
+                                            [0] => strict-origin
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 200
+                    [protocol_version] => 1.1
+                    [success] => 1
+                    [redirects] => 0
+                    [url] => https://uat.esewa.com.np/epay/transrec
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => WpOrg\Requests\Cookie\Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                    [BIGipServerrc-user-pool] => WpOrg\Requests\Cookie Object
+                                        (
+                                            [name] => BIGipServerrc-user-pool
+                                            [value] => 398593290.14340.0000
+                                            [attributes] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                                                (
+                                                    [data:protected] => Array
+                                                        (
+                                                            [path] => /
+                                                            [httponly] => 1
+                                                            [secure] => 1
+                                                            [domain] => uat.esewa.com.np
+                                                        )
+
+                                                )
+
+                                            [flags] => Array
+                                                (
+                                                    [creation] => 1715609331
+                                                    [last-access] => 1715609331
+                                                    [persistent] => 
+                                                    [host-only] => 1
+                                                )
+
+                                            [reference_time] => 1715609331
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+        )
+
+)
+
+2024-05-13T14:08:51+00:00 INFO Valid response received from eSewa IPN
+2024-05-13T14:08:51+00:00 INFO Found order #1325
+2024-05-13T14:08:51+00:00 INFO Payment status: completed
